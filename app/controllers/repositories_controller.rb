@@ -1,7 +1,7 @@
 class RepositoriesController < ApplicationController
 
   def search
-  end 
+  end
 
   def github_search
     @resp = Faraday.get("https://api.github.com/search/repositories")  do |req|
