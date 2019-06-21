@@ -7,7 +7,6 @@ class RepositoriesController < ApplicationController
           req.params['client_secret'] = ENV['GIT_CLIENT_SECRET']
 
         end
-        console.log(@resp)
 
         render 'search'
   end
