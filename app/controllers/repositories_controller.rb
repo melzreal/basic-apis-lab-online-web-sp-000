@@ -9,7 +9,7 @@ class RepositoriesController < ApplicationController
       end
 
 
-    
+
   end
 
   def github_search
