@@ -8,9 +8,11 @@ class RepositoriesController < ApplicationController
 
         end
 
+
         render 'search'
   end
 
   def github_search
+    binding.pry
   end
 end
