@@ -8,11 +8,11 @@ class RepositoriesController < ApplicationController
 
         end
 
-
+        return @search
         render 'search'
   end
 
   def github_search
-    
+
   end
 end
