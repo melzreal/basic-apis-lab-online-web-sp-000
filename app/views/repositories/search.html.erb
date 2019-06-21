@@ -3,5 +3,9 @@
   <%= label_tag :query %>
   <%= text_field_tag :query %>
   <%= submit_tag "Search Github!" %>
+
 <% end %>
 
+<div>
+  <%= @resp.body if @resp %>
+</div>
